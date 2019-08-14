@@ -1,0 +1,13 @@
+@charset "utf-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,span,a,em,u,i,input,textarea,select,label
+,header,nav,article,aside,footer,section,hgroup,figure,main{ margin:0; padding:0; }
+img { border:none; }/* display: block; */
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+h1,h2,h3,h4,h5,h6{font-style: normal;}
+a,u{text-decoration: none;color:#666;}
+em,i{font-style: normal;}
+ul, ol,li{ list-style:none; } 
+body { color:#333; font:12px/20px "微软雅黑";/* overflow-y:scroll;*/ overflow-x:hidden;}
+table{border-collapse:collapse;border-spacing:0}
+input{outline: none;}/*清除文本框聚焦时的蓝色框线*/
+.clear_fix:after{content: "";clear: both;height: 0; font-size: 1px; overflow: hidden; visibility: hidden; }
